@@ -114,7 +114,7 @@ printf ("população a carta 1 venceu:%d\n" , pessoas > pessoas2 );
 printf("area a carta 1 venceu:%f\n", area > area2 );
 printf("O Pib da carta é maior:%f\n", pib > pib2 );
 printf("A carta 1 tem mais pontos turísticos:%d\n", local > local2 );
-printf("A densidade populacional da carta 1 é maior:%f\n", densidade > densidade2 );
+printf("A densidade populacional da carta 1 é menor:%f\n", densidade < densidade2 );
 printf("O PIB per cabita da carta 1 é maior:%f\n ", capita > capita2 );
 printf("O Poder da carta 1 é maior:%f" , resultado > resultado2 );
 
