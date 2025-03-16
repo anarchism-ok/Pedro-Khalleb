@@ -109,14 +109,42 @@ printf("poder da carta 2:%.2f\n", poder2 );
 resultado = poder;
 resultado2 = poder2;
 
-printf("*****Comparação de Cartas*****\n");
-printf ("população a carta 1 venceu:%d\n" , pessoas > pessoas2 );
-printf("area a carta 1 venceu:%f\n", area > area2 );
-printf("O Pib da carta é maior:%f\n", pib > pib2 );
-printf("A carta 1 tem mais pontos turísticos:%d\n", local > local2 );
-printf("A densidade populacional da carta 1 é menor:%f\n", densidade < densidade2 );
-printf("O PIB per cabita da carta 1 é maior:%f\n ", capita > capita2 );
-printf("O Poder da carta 1 é maior:%f" , resultado > resultado2 );
+if(pessoas >= pessoas2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+if(area >= area2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n" );
+}
+if(pib >= pib2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+if(local >= local2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+if(densidade <= densidade2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+if(capita >= capita2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+if(poder2 >= poder2 ){
+    printf("carta 1 venceu\n");
+}else{
+    printf("carta 2 venceu\n");
+}
+
 
 
 
